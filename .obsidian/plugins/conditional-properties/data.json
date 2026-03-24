@@ -1,0 +1,79 @@
+{
+  "rules": [
+    {
+      "ifType": "PROPERTY",
+      "ifProp": "summary",
+      "ifValue": "",
+      "op": "isEmpty",
+      "thenActions": [
+        {
+          "prop": "summary",
+          "value": "NEEDS SUMMARY -- invisible to Vault Map and agent discovery",
+          "action": "overwrite",
+          "type": "property"
+        }
+      ]
+    },
+    {
+      "ifType": "PROPERTY",
+      "ifProp": "summary",
+      "ifValue": "",
+      "op": "notExists",
+      "thenActions": [
+        {
+          "prop": "summary",
+          "value": "NEEDS SUMMARY -- invisible to Vault Map and agent discovery",
+          "action": "add",
+          "type": "property"
+        }
+      ]
+    },
+    {
+      "ifType": "PROPERTY",
+      "ifProp": "superseded-by",
+      "ifValue": "",
+      "op": "exists",
+      "thenActions": [
+        {
+          "prop": "status",
+          "value": "superseded",
+          "action": "overwrite",
+          "type": "property"
+        }
+      ]
+    },
+    {
+      "ifType": "PROPERTY",
+      "ifProp": "depends-on",
+      "ifValue": "",
+      "op": "exists",
+      "thenActions": [
+        {
+          "prop": "status",
+          "value": "developmental",
+          "action": "add",
+          "type": "property"
+        }
+      ]
+    },
+    {
+      "ifType": "PROPERTY",
+      "ifProp": "stale-after",
+      "ifValue": "",
+      "op": "exists",
+      "thenActions": [
+        {
+          "prop": "status",
+          "value": "active",
+          "action": "add",
+          "type": "property"
+        }
+      ]
+    }
+  ],
+  "scanIntervalMinutes": 30,
+  "lastRun": "2026-03-24T15:16:55.948Z",
+  "scanScope": "latestModified",
+  "scanCount": 20,
+  "operatorMigrationVersion": 2
+}

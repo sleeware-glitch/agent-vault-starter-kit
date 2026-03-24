@@ -1,0 +1,12 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#ea4343",
+  "cssTheme": "Things",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "baseFontSize": 16,
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "properties-expand"
+  ]
+}

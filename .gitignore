@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Smart Connections embeddings (rebuild from your own content)
+.smart-env/
+
+# Nexus workspace data (session-specific)
+.nexus/
+
+# Obsidian workspace state (machine-specific)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+
+# Proton Drive / sync conflict files
+*Edit conflict*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/

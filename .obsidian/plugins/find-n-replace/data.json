@@ -1,0 +1,53 @@
+{
+  "maxResults": 1000,
+  "enableAutoSearch": true,
+  "searchDebounceDelay": 300,
+  "logLevel": 1,
+  "fileGroupStates": {
+    "LEDGER/Vault-Map.md": true,
+    "REFERENCE/Condensed/Handbook-Great Blindness.md": true,
+    "SCRATCH/Craft/Bach's Creation Story.md": true,
+    "CANON/Characters/Protagonists/Reach.md": true,
+    "ARCHIVE/B2 Child Arc.md": false,
+    "CANON/Characters/Protagonists/Caleb Stray.md": false,
+    "CANON/Planning/Books/B2-PRESENT/ACT I.md": false
+  },
+  "defaultIncludePatterns": [
+    "CANON/",
+    "LEDGER/",
+    "MANUSCRIPT/",
+    "REFERENCE/"
+  ],
+  "defaultExcludePatterns": [
+    "SCRATCH/",
+    "RESEARCH/"
+  ],
+  "searchHistory": [
+    "Zhì",
+    "the Nerve"
+  ],
+  "replaceHistory": [
+    "Yù",
+    "Elias Cole",
+    "Maria Rai",
+    "Savio Rai",
+    "Lin Zhì",
+    "Caleb Stray"
+  ],
+  "maxHistorySize": 50,
+  "enableSearchHistory": true,
+  "confirmDestructiveActions": true,
+  "rememberSearchOptions": true,
+  "rememberFileGroupStates": true,
+  "warnDangerousRegex": true,
+  "lastSearchOptions": {
+    "matchCase": false,
+    "wholeWord": false,
+    "useRegex": false,
+    "multiline": false
+  },
+  "highlightDuration": 2000,
+  "persistentHighlight": false,
+  "showLineNumbers": true,
+  "showFileExtensions": false
+}

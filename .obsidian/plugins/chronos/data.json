@@ -1,0 +1,20 @@
+{
+  "selectedLocale": "en",
+  "align": "left",
+  "clickToUse": false,
+  "roundRanges": false,
+  "useUtc": true,
+  "useAI": true,
+  "showChangelogOnUpdate": true,
+  "enableCaching": false,
+  "basesPropNames": {
+    "start": "story-date-start",
+    "end": "story-date-end",
+    "group": "protagonist",
+    "color": "arc-color",
+    "type": "scene-type",
+    "content": "content",
+    "description": "summary"
+  },
+  "lastSeenVersion": "3.6.3"
+}

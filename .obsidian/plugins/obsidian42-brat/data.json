@@ -1,0 +1,29 @@
+{
+  "pluginList": [
+    "gapmiss/find-n-replace",
+    "ProfSynapse/nexus"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "gapmiss/find-n-replace",
+      "version": "latest"
+    },
+    {
+      "repo": "ProfSynapse/nexus",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": true,
+  "allowIncompatiblePlugins": false
+}

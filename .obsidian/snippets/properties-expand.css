@@ -1,0 +1,22 @@
+/* Expand summary property to show full text */
+.metadata-property[data-property-key="summary"] .metadata-input-longtext {
+  min-height: 6em !important;
+  max-height: 20em !important;
+  height: auto !important;
+}
+
+.metadata-property[data-property-key="summary"] .metadata-property-value {
+  min-height: 6em !important;
+}
+
+/* Also try targeting the input directly */
+.metadata-property[data-property-key="summary"] input[type="text"] {
+  min-height: 6em !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+}
+
+/* Reset property name column to default */
+body {
+  --metadata-label-width: 9em;
+}

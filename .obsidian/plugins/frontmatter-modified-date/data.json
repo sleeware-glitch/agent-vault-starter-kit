@@ -1,0 +1,11 @@
+{
+  "frontmatterProperty": "modified",
+  "momentFormat": "YYYY-MM-DDTHH:mm:ss",
+  "excludedFolders": [
+    "ARCHIVE",
+    "TEMPLATES",
+    ".smart-env",
+    "OPERATIONS/FileClasses"
+  ],
+  "useKeyupEvents": true
+}

@@ -1,0 +1,15 @@
+{
+  "newFileLocation": "current",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showFrontmatter": true,
+  "defaultViewMode": "source",
+  "readableLineLength": true,
+  "promptDelete": false,
+  "propertiesInDocument": "visible",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "showLineNumber": true
+}
